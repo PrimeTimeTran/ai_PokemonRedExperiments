@@ -56,6 +56,7 @@ class RedGymEnv(gym.Env):
         self.metadata = {"render.modes": []}
         self.reward_range = (0, 15000)
 
+        # 
         self.valid_actions = [
             WindowEvent.PRESS_ARROW_DOWN,
             WindowEvent.PRESS_ARROW_LEFT,
